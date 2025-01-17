@@ -1,0 +1,11 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MuhammadRaheelFayyaz/node-demo.git",
+  "author": "MuhammadRaheelFayyaz",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
