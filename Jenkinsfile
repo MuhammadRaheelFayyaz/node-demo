@@ -8,12 +8,6 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Setup Node.js') {
-            steps {
-                sh 'nvm install 20.17.0'
-                sh 'nvm use 20.17.0'
-            }
-        }
         stage('Install Dependencies') {
             steps {
                 // Install Node.js dependencies
